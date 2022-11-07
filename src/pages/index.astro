@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="HTML Driven Development - Home">
+		<main class="container max-w-7xl mx-auto px-2 pb-4 sm:px-6 lg:px-8">
+  <div class="md:grid grid-cols-2 gap-2">
+    <div class="mb-4 p-4">
+      <h2 class="md:text-7xl text-4xl text-indigo-600 font-bold md:mt-16 dark:text-indigo-400">HTML Driven Development</h2>
+      <p class="text-gray-900 text-2xl my-2 dark:text-white">A set of core values, principles and practices for tackling complexity in the heart of Web development.</p>
+    </div>
+    <div class="py-2 ml-16"><img src="/images/html.svg" width="70%" alt="HTML Driven Development" /></div>
+  </div>
+</main>
+<div class="bg-white dark:bg-gray-800 pt-8">
+  <div class="container max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="md:grid grid-cols-2 gap-2">
+      <div class="flex-1"><img src="/images/values.svg" alt="Values" /></div>
+      <div class="flex-1">
+        <h2 class="text-5xl text-gray-900 font-bold p-4 dark:text-white">Values</h2>
+        <p class="text-xl py-2 text-gray-500 p-4 dark:text-gray-400">Values are the roots of the things we like and don't like in a situation. They are the large scale criteria we use to judge what we see, think, and do. Making values explicit is important because without values, practices quickly become repetitive, activities performed for their own sake but lacking any purpose or direction.</p>
+        <p class="py-8 text-center"><a href="/values">Explore Values »</a></p>
+      </div>
+    </div>
+    <div class="md:grid grid-cols-2 gap-2">
+      <div class="flex-1 p-4">
+        <h2 class="text-5xl text-gray-900 font-bold dark:text-white">Principles</h2>
+        <p class="text-xl py-2 text-gray-500 dark:text-gray-400">Bridging the gap between values and practices are principles. Principles are domain-specific guidelines for life. Principles are required because values are too abstract to directly guide behavior. You can use the principles to understand the practices better. The principles give you a better idea of what the practice is intended to accomplish. No work should be done for its own sake.</p>
+        <p class="py-8 text-center"><a href="/principles">Explore Principles »</a></p>
+      </div>
+      <div class="flex-1"><img src="/images/principles.svg" alt="Principles" /></div>
+    </div>
+    <div class="md:grid grid-cols-2 gap-2">
+      <div class="flex-1"><img src="/images/practices.svg" alt="Practices" /></div>
+      <div class="flex-1 p-4">
+        <h2 class="text-5xl text-gray-900 font-bold dark:text-white">Practices</h2>
+        <p class="text-xl py-2 text-gray-500 dark:text-gray-400">
+          Practices are the things you do day-to-day. Specifying practices is useful because they are clear and objective. Practices are evidences of values. They are unproductive unless given purpose by values. They are situation dependent. If the situation changes, you choose different practices to meet those conditions. Applying a practice is a choice.</p>
+        <p class="py-8 text-center"><a href="/practices" Practices="Practices"></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</Layout>
+
