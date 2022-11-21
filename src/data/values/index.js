@@ -1,6 +1,7 @@
-const energy = require("./energy-efficiency");
-const simplicity = require("./simplicity");
-module.exports = {
-  "energy-efficiency": energy,
+import energyEfficiency from "./energy-efficiency";
+import simplicity from "./simplicity";
+
+export default {
+  energyEfficiency,
   simplicity,
 };

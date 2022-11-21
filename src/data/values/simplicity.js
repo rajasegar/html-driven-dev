@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   videos: [
     {
       id: "rI8tNMsozo0",

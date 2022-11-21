@@ -1,0 +1,13 @@
+---
+export interface Props {
+url: string;
+}
+
+
+const { url } = Astro.props;
+
+const { url: { pathname } } = Astro;
+
+const activeBg = url === pathname ? 'bg-indigo-700' : 'hover:bg-gray-700 hover:text-white dark:text-white';
+---
+<a class:list={["px-3 py-2 rounded-md text-sm font-medium text-white", activeBg ]} href={url} aria-current="page"><slot/></a>
